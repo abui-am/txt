@@ -7,15 +7,7 @@ function App() {
   const { width, height } = useWindowSize();
 
   const query = new URLSearchParams(window.location.search);
-  // console.log(query.get('txt') || '', 'magnet');
-  // console.log(decryptWithAES(query.get('txt') || ''));
 
-  // console.log(
-  //   'here',
-  //   encodeURIComponent(
-  //     encryptWithAES('<span>Semagat Nugasnya Firyall <br/> <br/> 💪💪💪</span>')
-  //   )
-  // );
   return (
     <>
       <div className='App'>
