@@ -23,7 +23,7 @@ function App() {
         />
         <h1>
           <div
-            // @danger
+            // @danger .
             dangerouslySetInnerHTML={{
               __html: decodeURIComponent(
                 decryptWithAES(query.get('txt') || '')
